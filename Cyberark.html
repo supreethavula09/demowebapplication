@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>EnH</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png" width="100"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="Services.html">SERVICES</a></li>
+						<li><a href="Trainings.html">TRAININGS</a></li>
+						<li><a href="Careers.html">CAREERS</a></li>
+						<li><a href="Contact.html">CONTACT US</a></li>
+					</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	<h1>CyberArk</h1>
+	</section>
+<!----------------CyberArk Overview---------------->
+	<section class="course">
+		<h1>CyberArk Overview Training Videos</h1>
+		<p>CyberArk is the global leader in Identity Security. Centered on privileged access management, CyberArk provides the most comprehensive security offering for any identity – human or machine – across business applications, distributed workforces, hybrid cloud workloads and throughout the DevOps lifecycle.</p>
+		<iframe width="800" height="450" src="https://www.youtube.com/embed/videoseries?list=PLci-so1hx-o-zZD6AmoD1YpRUxM9YWfR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</section>
+
+
+<!-- ---- Footer ---->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Enh iSecure is the best place to start your career as an Cybersecurity specialist.<br>
+	Enh iSecure provides best allround services to your company at a best price.<br>
+	So, please do business with Enh iSecure.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>		
+	</div>
+	<p>Made by Supreeth Avula</p>
+</section>
+  
+
+<!-- --------Javascript for toggle menu------- -->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>
+</body>
+</html>

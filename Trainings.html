@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>EnH</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="logo.png" width="100"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="Services.html">SERVICES</a></li>
+						<li><a href="Trainings.html">TRAININGS</a></li>
+						<li><a href="Careers.html">CAREERS</a></li>
+						<li><a href="Contact.html">CONTACT US</a></li>
+					</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	<h1>Trainings We Offer </h1>
+	</section>
+<!------------Trainings--------->
+	<section class="campus">
+		<h1>Trainings we offer</h1>
+		<p>The Trainings that are offered by Enh Trainings are</p>
+		<div class="crow">
+			<div class="campus-col">
+				<h3>Sailpoint Identity</h3>
+				<p>The SailPoint Identity Platform is our latest innovation in identity. It incorporates AI and machine learning into the core IdentityNow platform to enhance and accelerate identity related decisions and tasks.<br><br>
+				<a href="Sailpoint.html" class="training-link">Click Here To Know More</a>
+				</p>
+			</div>
+			<div class="campus-col">
+				<h3>Cyberark Overview</h3>
+				<p>It enables organizations to secure, provision, manage, control and monitor all activities associated with all types of privileged identities, such as: Administrator on a Windows server.<br><br><br>
+				<a href="Cyberark.html" class="training-link">Click Here To Know More</a>
+				</p>
+			</div>
+			<div class="campus-col">
+				<h3>Sailpoint IIQ Overview</h3>
+				<p>SailPoint IdentityIQ is an identity and access management software platform custom-built for complex enterprises.<br><br><br><br>
+				<a href="SailpointIIQ.html" class="training-link">Click Here To Know More</a>
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+<!-- ---- Footer ---->
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Enh iSecure is the best place to start your career as an Cybersecurity specialist.<br>
+	Enh iSecure provides best allround services to your company at a best price.<br>
+	So, please do business with Enh iSecure.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>		
+	</div>
+	<p>Made by Supreeth Avula</p>
+</section>
+  
+
+<!-- --------Javascript for toggle menu------- -->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>
+</body>
+</html>
